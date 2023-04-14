@@ -1,0 +1,95 @@
+/* Projects */
+
+#project-cont {
+    margin-top: 0px;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+#project {
+    background-color: #145369;
+    padding: 15px 0 15px 0;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#project-hedaing {
+    text-align: center;
+    color: #145369;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#project-img {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: auto;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#project-right {
+    padding: auto;
+    margin: auto;
+    width: auto;
+    height: auto;
+
+}
+
+.btn-group {
+    display: inline-block;
+}
+
+.p-button {
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #145369;
+    font-weight: 600;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    flex: 2;
+    margin-bottom: 5px;
+}
+
+#project-right-H2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+#project-right-H1 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #project-right-H2 {
+        font-size: 16px;
+    }
+}
+
+#icon-group {
+    margin-top: 10px;
+}
+
+#icon-left {
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+
+#icon-right {
+    color: #ffffff;
+    margin-right: 10px;
+}

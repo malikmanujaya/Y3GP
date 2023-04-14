@@ -1,0 +1,283 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #fafafa;
+  color: gray;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+button:hover,
+button:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #000;
+}
+
+.ftco-section {
+  padding: 7em 0;
+}
+
+.ftco-no-pt {
+  padding-top: 0;
+}
+
+.ftco-no-pb {
+  padding-bottom: 0;
+}
+
+.heading-section {
+  font-size: 28px;
+  color: #000;
+}
+
+.heading-section small {
+  font-size: 18px;
+}
+
+#nav{
+  margin-bottom: 50px;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.navbar {
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  position: fixed;
+  z-index: 10;
+  left: 300px;
+  width: calc(100% - 300px);
+}
+
+.navbar-btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+.wrapper {
+  width: 100%;
+  /* position: fixed; */
+}
+
+#sidebar {
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 800px;
+  background: #fff;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 5;
+  position: fixed;
+}
+
+/* #sidebar.active {
+  margin-left: -300px;
+} */
+
+#sidebar .logo {
+  display: block;
+  width: 180px;
+  height: 76px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#sidebar .logo span {
+  display: block;
+}
+
+.sidebar-logo {
+  width: 180px;
+  height: 76px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: url("../../../../public/images/Sasnaka-logo.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#sidebar ul.components {
+  padding: 0;
+}
+
+#sidebar ul li {
+  font-size: 16px;
+}
+
+#sidebar ul li>ul {
+  margin-left: 10px;
+}
+
+#sidebar ul li>ul li {
+  font-size: 14px;
+}
+
+#sidebar ul li a {
+  padding: 8px 0;
+  display: block;
+  color: #898787;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#sidebar ul li a:hover {
+  color: #2596ba;
+}
+
+#sidebar ul li.active>a {
+  border-radius: 135px;
+  background: #2596ba !important;
+  color: #ffffff;
+}
+
+#sidebarCollapse {
+  pointer-events: none;
+}
+
+@media (max-width: 991.98px) {
+  #sidebar {
+    margin-left: -300px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+    top: 50px;
+  }
+
+  .calculated-bodywidth {
+    width: 100% !important;
+    margin-left: 0px !important;
+    padding: 75px 15px;
+  }
+
+  .navbar {
+    z-index: 10;
+    left: 0;
+    width: 100%;
+  }
+
+  #sidebarCollapse {
+    pointer-events: auto;
+  }
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  margin-right: 30px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 991.98px) {
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+
+#content {
+  width: 100%;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn.btn-primary {
+  background: #2596ba;
+  border-color: #2596ba;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background: #2596ba !important;
+  border-color: #2596ba !important;
+}
+
+.calculated-bodywidth {
+  width: -webkit-calc(100% - 300px);
+  width: -moz-calc(100% - 300px);
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  padding: 75px 15px;
+}
+
+/* .navwidth {
+  width: 100%;
+} */
+
+/* #contentcard {
+  z-index: -5;
+} */
+
+.linkdark {
+  color: #000 !important;
+}

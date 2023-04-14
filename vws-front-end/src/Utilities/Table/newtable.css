@@ -1,0 +1,64 @@
+table {
+  width: 100%;
+}
+
+table th,
+table td {
+  border-bottom: 1px solid rgb(198, 198, 198);
+  color: black;
+  line-height: 50px;
+}
+table th :last-child,
+table td :last-child {
+  border-right: 0;
+}
+
+.tablehead {
+  font-weight: lighter;
+}
+#tablecheckbox {
+  width: 18px;
+  height: 18px;
+}
+
+.pagination {
+  display: inline-block;
+  padding: 0.5rem 0;
+  display: flex;
+}
+
+.pagination button {
+  color: black;
+  padding: 1px 3px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  width: 30px;
+  height: 30px;
+  padding: auto;
+  margin: 3px;
+}
+#gotopage {
+  width: 40px !important;
+  height: 30px;
+  border: none;
+}
+#rowselect {
+  border: none;
+}
+#tableprop {
+  margin: auto;
+}
+#sorticon {
+  font-size: medium;
+  font-weight: 10px;
+  color: rgb(160, 160, 160);
+  margin-left: 5px;
+  -webkit-text-stroke: 1px white;
+}
+tr:hover{
+  background-color: rgb(233, 233, 233);
+}
+th{
+  font-weight: bold!important;
+}
